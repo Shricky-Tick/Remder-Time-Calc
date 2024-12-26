@@ -35,7 +35,7 @@ python render_calculator.py
 
 ### Option 2: Windows Executable
 
-Download the latest release from the [Releases](https://github.com/yourusername/render-time-calculator/releases) page.
+Download the latest release from the [Releases](https://github.com/Shricky-Tick/Remder-Time-Calc/releases) page.
 
 ## Usage
 
