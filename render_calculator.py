@@ -154,12 +154,15 @@ class RenderCalculator(tk.Frame):
 
 
 def main():
-   root = tk.Tk()
-   root.title("Render Time Calculator")
-   app = RenderCalculator(root)
-   app.pack(padx=10, pady=10)
-   root.mainloop()
-
+    root = tk.Tk()
+    root.title("Render Time Calculator")
+    try:
+        root.iconbitmap('render_calculator.ico')  # Update this line with your chosen filename
+    except:
+        pass  # Continue without icon if file is missing
+    app = RenderCalculator(root)
+    app.pack(padx=10, pady=10)
+    root.mainloop()
 
 if __name__ == "__main__":
    main()
